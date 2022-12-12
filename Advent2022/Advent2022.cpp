@@ -6,25 +6,31 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
-    day1(); 
-    day1part2(); 
+    //std::cout << "Hello World!\n";
+    day1();
+    day1part2();
 
     day2();
-    day2part2(); 
+    day2part2();
 
-    day3(); 
-    day3part2(); 
+    day3();
+    day3part2();
 
-    day4(); 
-    day4part2(); 
-    return 0; 
+    day4();
+    day4part2();
+
+    day5();
+    day5part2();
+
+    day6();
+    day6part2();
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
-// Tips for Getting Started: 
+// Tips for Getting Started:
 //   1. Use the Solution Explorer window to add/manage files
 //   2. Use the Team Explorer window to connect to source control
 //   3. Use the Output window to see build output and other messages

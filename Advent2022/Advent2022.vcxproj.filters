@@ -33,6 +33,12 @@
     <ClCompile Include="day4.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="day5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="day6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="advent.h">
