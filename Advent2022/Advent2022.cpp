@@ -27,6 +27,8 @@ int main()
 
     day7();
     //day7part2(); This is wrapped into day7()
+
+    day8();
     return 0;
 }
 

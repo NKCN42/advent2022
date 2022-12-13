@@ -147,6 +147,7 @@
     <ClCompile Include="day5.c" />
     <ClCompile Include="day6.c" />
     <ClCompile Include="day7.c" />
+    <ClCompile Include="day8.c" />
     <ClCompile Include="utils.c" />
   </ItemGroup>
   <ItemGroup>
