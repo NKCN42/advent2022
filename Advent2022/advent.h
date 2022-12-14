@@ -25,6 +25,8 @@ extern "C"
     int day7();
 
     int day8();
+
+    int day9();
 #ifdef __cplusplus
 }
 #endif

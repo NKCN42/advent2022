@@ -26,9 +26,10 @@ int main()
     day6part2();
 
     day7();
-    //day7part2(); This is wrapped into day7()
 
     day8();
+
+    day9();
     return 0;
 }
 
