@@ -51,6 +51,9 @@
     <ClCompile Include="day10.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="day11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="advent.h">

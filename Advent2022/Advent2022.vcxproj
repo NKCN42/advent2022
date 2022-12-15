@@ -142,6 +142,7 @@
     <ClCompile Include="Advent2022.cpp" />
     <ClCompile Include="day1.c" />
     <ClCompile Include="day10.c" />
+    <ClCompile Include="day11.c" />
     <ClCompile Include="day2.c" />
     <ClCompile Include="day3.c" />
     <ClCompile Include="day4.c" />
