@@ -30,6 +30,10 @@ int main()
     day8();
 
     day9();
+    day9part2();
+
+    day10();
+
     return 0;
 }
 

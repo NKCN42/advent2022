@@ -238,4 +238,5 @@ cleanup:
         }
         free(inputMatrix);
     }
+    return ret;
 }

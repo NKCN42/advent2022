@@ -39,6 +39,23 @@ cleanup:
     return ret;
 }
 
+
+
+int isChildInList(struct day7node** childList, int numChildren, char* name)
+{
+    int ret = 0;
+    for (int i = 0; i < numChildren; i++)
+    {
+        if (strcmp(childList[i]->name, name) == 0)
+        {
+            ret = 1;
+            break;
+        }
+    }
+    return ret;
+}
+
+
 struct day7node* addChild(struct day7node* parentnode, char* childname)
 {
     struct day7node* temp = NULL;
@@ -63,21 +80,6 @@ struct day7node* addChild(struct day7node* parentnode, char* childname)
     }
     return temp;
 }
-
-int isChildInList(struct day7node** childList, int numChildren, char* name)
-{
-    int ret = 0;
-    for (int i = 0; i < numChildren; i++)
-    {
-        if (strcmp(childList[i]->name, name) == 0)
-        {
-            ret = 1;
-            break;
-        }
-    }
-    return ret;
-}
-
 int printTree(struct day7node* root, int level)
 {
     for (int i = 0; i < level; i++)
