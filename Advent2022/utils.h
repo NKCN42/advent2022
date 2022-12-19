@@ -3,13 +3,14 @@
 extern "C"
 {
 #endif
+#define VEC_INIT_CAPACITY 4
     typedef struct vec
     {
+        void** items;
         unsigned int capacity;
         unsigned int size;
-        void** items;
     }vector;
-    int vectorInit(vector* vec);
+    void vectorInit(vector* vec);
     int vectorAdd(vector* vec, void* newItem);
     void* vectorRemove(vector* vec, int index);
     int vectorFree(vector* vec, void (*itemfreefunc)(void*));

@@ -7,6 +7,7 @@
 int main()
 {
     //std::cout << "Hello World!\n";
+    /*
     day1();
     day1part2();
 
@@ -35,6 +36,11 @@ int main()
     day10();
 
     day11();
+    day11part2();
+
+    day12();
+    */
+    day13();
     return 0;
 }
 

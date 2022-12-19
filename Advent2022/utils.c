@@ -3,26 +3,19 @@
 #include "utils.h"
 
 
-int vectorInit(vector* vec)
+void vectorInit(vector* vec)
 {
-    int ret = 0;
     vec->items = (void**)calloc(2, sizeof(void*));
-    if (vec->items == NULL)
-    {
-        //bad happened
-        ret = 1;
-        goto cleanup;
-    }
     vec->capacity = 2;
-cleanup:
-    return ret;
+    vec->size = 0;
 }
+
 
 int vectorAdd(vector* vec, void* newItem)
 {
     void** temp = NULL;
     int ret = 0;
-    if (vec->size + 1 > vec->capacity)
+    if (vec->size == vec->capacity)
     {
         //realloc
         temp = realloc(vec->items, vec->capacity * 2 * sizeof(void*));
@@ -32,6 +25,7 @@ int vectorAdd(vector* vec, void* newItem)
             goto cleanup;
         }
         vec->items = temp;
+        vec->capacity *= 2;
     }
     vec->items[vec->size] = newItem;
     vec->size++;
